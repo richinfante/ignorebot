@@ -1,6 +1,6 @@
 {
   "name": "ignorebot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download/Append .gitignore files from https://github.com/github/gitignore",
   "main": "ignorebot.js",
   "scripts": {
@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/richinfante/ignorebot.git"
   },
+  "bin": {
+    "ignorebot": "ignorebot.js"
+  },
+  "files": [
+    "ignorebot.js"
+  ],
   "preferGlobal": true,
   "author": "@richinfante",
   "license": "MIT",
