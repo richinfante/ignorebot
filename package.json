@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/richinfante/ignorebot.git"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
   "author": "@richinfante",
   "license": "MIT",
   "bugs": {
