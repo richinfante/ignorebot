@@ -10,12 +10,10 @@ npm install -g ignorebot
 
 ##Usage
 ```bash
-ignorebot install [name]
+ignorebot install [name] #installs a gitignore template
+ignorebot preview [name] #lists ignore patterns to be added
+ignorebot list #shows list of currently available templates
 ```
-
-##Naming Requirements
-- Case sensitive
-- They must match the filenames in https://github.com/github/gitignore (minus the .gitignore part)
 
 ##Some examples
 ```bash
@@ -26,14 +24,5 @@ ignorebot install Swift
 ignorebot install Java
 ```
 
-```bash
-ignorebot install Node
-```
-
-```bash
-ignorebot install Ruby
-```
-
-```bash
-ignorebot install Jekyll
-```
+####Note
+The `ignorebot list` command is only provided as a convenience and may not up-to date. if it isn't, use the `update-list.sh` script and send a PR, or open an issue.  
