@@ -1,6 +1,6 @@
 {
   "name": "ignorebot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Download/Append .gitignore files from https://github.com/github/gitignore",
   "main": "ignorebot.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "ignorebot": "ignorebot.js"
   },
   "files": [
-    "ignorebot.js"
+    "ignorebot.js",
+    "templates.json"
   ],
   "preferGlobal": true,
   "author": "@richinfante",
