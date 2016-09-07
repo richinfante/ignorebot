@@ -157,7 +157,6 @@
     "Global/NetBeans",
     "Global/Ninja",
     "Global/NotepadPP",
-    "Global/OSX",
     "Global/Otto",
     "Global/Redcar",
     "Global/Redis",
@@ -176,5 +175,6 @@
     "Global/WebMethods",
     "Global/Windows",
     "Global/Xcode",
-    "Global/XilinxISE"
+    "Global/XilinxISE",
+    "Global/macOS"
 ]
